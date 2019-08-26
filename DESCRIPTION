@@ -1,0 +1,18 @@
+Package: shinyselect
+Type: Package
+Title: Observe Multiple Reactive Elements
+Version: 0.1.0
+Description: Observe multiple reactive elements using tidyselect like API.
+Authors@R: 
+    person(given = "Jonathan",
+           family = "Sidi",
+           email = "yonicd@gmail.com",
+           role = c("cre","aut"))
+URL: https://www.github.com/yonicd/shinyselect
+BugReports: https://www.github.com/yonicd/shinyselect/issues
+Depends: R (>= 3.2.0)
+Imports: shiny
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
