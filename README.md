@@ -13,10 +13,17 @@ remotes::install_github("yonicd/shinyselect")
 
 Functions that are defined are 
 
-  - `observe_contains`: Contains a literal string matched to elements names in a reactive object.
-  - `observe_starts_with`: Starts with a prefix that are matched to elements names in a reactive object.
-  - `observe_ends_with`: Ends with a suffix that are matched to elements names in a reactive object.
-  - `observe_one_of`: Matches elements names in a reactive object.
+  - `Observe`
+    - `observe_contains`: Contains a literal string matched to elements names in a reactive object.
+    - `observe_starts_with`: Starts with a prefix that are matched to elements names in a reactive object.
+    - `observe_ends_with`: Ends with a suffix that are matched to elements names in a reactive object.
+    - `observe_one_of`: Matches elements names in a reactive object.
+
+  - `Reactive`
+    - `reactive_contains`: Contains a literal string matched to elements names in a reactive object.
+    - `reactive_starts_with`: Starts with a prefix that are matched to elements names in a reactive object.
+    - `reactive_ends_with`: Ends with a suffix that are matched to elements names in a reactive object.
+    - `reactive_one_of`: Matches elements names in a reactive object.
 
 ## Example
 
