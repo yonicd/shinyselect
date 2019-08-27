@@ -1,6 +1,7 @@
 # shinyselect
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
 The goal of shinyselect is to use tidyselect-like verbs when applying an [observeEvent or eventReactive](https://shiny.rstudio.com/reference/shiny/1.0.3/observeEvent.html) handler function to multiple elements
@@ -105,3 +106,4 @@ server <- shiny::shinyServer(function(input, output,session) {
 shiny::shinyApp(ui = ui, server = server)
 
 ```
+
