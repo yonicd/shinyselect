@@ -3,7 +3,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of shinyselect is to use tidyselect-like verbs when applying observeEvent handler function to multiple elements
+The goal of shinyselect is to use tidyselect-like verbs when applying an [observeEvent or eventReactive](https://shiny.rstudio.com/reference/shiny/1.0.3/observeEvent.html) handler function to multiple elements
 
 ## Installation
 
