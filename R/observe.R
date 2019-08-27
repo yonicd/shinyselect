@@ -57,7 +57,7 @@
 
 observe_contains <- function(match,handlerExpr,input,ignore.case = TRUE){
 
-  shiny_select(match,handlerExpr,input,ignore.case = ignore.case)
+  shiny_observe_select(match,handlerExpr,input,ignore.case = ignore.case)
 
 }
 
@@ -65,7 +65,7 @@ observe_contains <- function(match,handlerExpr,input,ignore.case = TRUE){
 #' @export
 observe_starts_with <- function(match,handlerExpr,input,ignore.case = TRUE){
 
-  shiny_select(sprintf('^%s',match),handlerExpr,input,ignore.case = ignore.case)
+  shiny_observe_select(sprintf('^%s',match),handlerExpr,input,ignore.case = ignore.case)
 
 }
 
@@ -73,7 +73,7 @@ observe_starts_with <- function(match,handlerExpr,input,ignore.case = TRUE){
 #' @export
 observe_ends_with <- function(match,handlerExpr,input,ignore.case = TRUE){
 
-  shiny_select(sprintf('%s$',match),handlerExpr,input,ignore.case = ignore.case)
+  shiny_observe_select(sprintf('%s$',match),handlerExpr,input,ignore.case = ignore.case)
 
 }
 
@@ -83,6 +83,6 @@ observe_one_of <- function(elements,handlerExpr,input,ignore.case = TRUE){
 
   match <- paste0(elements,collapse = '|')
 
-  shiny_select(match,handlerExpr,input,ignore.case = ignore.case)
+  shiny_observe_select(match,handlerExpr,input,ignore.case = ignore.case)
 
 }

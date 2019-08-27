@@ -1,7 +1,7 @@
 Package: shinyselect
 Type: Package
 Title: Observe Multiple Reactive Elements
-Version: 0.1.0
+Version: 0.1.1
 Description: Observe multiple reactive elements using tidyselect like API.
 Authors@R: 
     person(given = "Jonathan",
